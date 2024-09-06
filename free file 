@@ -1,0 +1,55 @@
+<!-- <div class="event_frame">
+        <div class="container">
+          <div class="event_product_time">
+            <div class="event_product_time_content">
+              <span>Top deals of the day</span>
+              <div class="content_days">
+                <strong>178</strong>
+                <p>days</p>
+              </div>
+              <div class="content_months">
+                <strong>178</strong>
+                <p>days</p>
+              </div>
+              <p></p>
+              <a href="">
+                <button>
+                  <p>Shop Now</p>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="event_product_boxes"></div>
+        </div>
+      </div>
+      
+      content_days {
+  position: absolute;
+  width: 52.41px;
+  height: 62px;
+
+  top: 30%;
+  justify-content: flex-start;
+  flex-direction: row;
+  display: flex;
+}
+
+.content_days,
+strong {
+  padding-right: 10px;
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.content_days p {
+  position: absolute;
+  top: 50px;
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: capitalize;
+}-->
