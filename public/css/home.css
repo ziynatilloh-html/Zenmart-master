@@ -1,5 +1,4 @@
 .home_page {
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -312,7 +311,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 60px;
 }
 /* Pagination */
 .container .pagination_box .pagination_main {
@@ -1104,4 +1102,261 @@
 
   background-color: rgb(255, 255, 255);
   border-radius: 6px;
+}
+/* Customer_servie_frame */
+
+.customer_service_frame {
+  width: 1920px;
+  height: 507px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* general css */
+.customer_service_frame .container strong {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 55px;
+}
+.customer_service_frame .container {
+  width: 1320px;
+  height: 246.1px;
+  margin-top: 90px;
+
+  display: flex;
+  flex-direction: row;
+}
+.customer_service_boxes {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact_us_box {
+  width: 280px;
+  height: auto;
+  position: relative;
+}
+
+.phone_number,
+.email_number {
+  width: 274.31px;
+  height: 54px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.phone_number img,
+.email_number img {
+  margin-top: 7px;
+  position: relative;
+  width: 35.63px;
+  height: 30px;
+  margin-right: 20px;
+}
+.phone_number span,
+.email_number span {
+  position: absolute;
+  left: 20%;
+
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+.phone_number p,
+.email_number p:hover {
+  text-decoration: underline;
+}
+.phone_number p,
+.email_number p {
+  position: absolute;
+  left: 20%;
+  margin-top: 30px;
+
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  cursor: pointer;
+}
+/* customer-support & Service_support */
+.customer_support_box,
+.service_support_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.paragraph {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.paragraph p {
+  position: relative;
+  width: 165.62px;
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.paragraph p:hover {
+  text-decoration: underline;
+}
+/* social_network_box */
+.social_network_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 154.91px;
+  height: 61.57px;
+}
+.social_media_icons {
+  position: absolute;
+  top: 85px;
+  width: 154.91px;
+  height: 15.57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.social_network_box span {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 55px;
+}
+
+.mobile_app {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mobile_app_item {
+  display: flex;
+  align-items: center;
+}
+
+.mobile_app_item img {
+  margin-right: 10px;
+  width: 45px;
+  height: 50px;
+}
+
+.mobile_app_item p {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+/* payment-methods */
+.payment_methods_box {
+  position: relative;
+  width: 262.02px;
+  height: 256px;
+  margin-top: 174px;
+}
+.card_photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+/*  bottom frame */
+.thebootom_frame {
+  position: relative;
+  width: 1920px;
+  height: 120px;
+  background-color: #ccc;
+  border-top: #d6d6d6;
+  background-color: rgb(234, 234, 234);
+}
+
+.thebootom_frame .container {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.left_rigth_side_wrapper {
+  display: flex;
+  width: 1320px;
+  height: 61px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.left-side p {
+  margin-right: 20px;
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.left-side ul {
+  margin-left: 60px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.left-side ul li {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.left-side ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.currency-dropdown,
+.language-dropdown {
+  margin-right: 10px;
+}
+
+.currency-dropdown select,
+.language-dropdown select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+  width: 100px;
+  height: 40px;
+  background: rgb(255, 255, 255);
 }
