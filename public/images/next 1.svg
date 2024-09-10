@@ -3,12 +3,12 @@
 			Created with Pixso.
 	</desc>
 	<defs>
-		<clipPath id="clip71_617">
-			<rect id="next 1" width="19.608376" height="22.000002" transform="translate(19.608398 22.000000) rotate(-179.999985)" fill="white" fill-opacity="0"/>
+		<clipPath id="clip195_1138">
+			<rect width="19.608376" height="22.000002" transform="translate(19.608398 22.000000) rotate(-179.999985)" fill="white" fill-opacity="0"/>
 		</clipPath>
 	</defs>
-	<rect id="next 1" width="19.608376" height="22.000002" transform="translate(19.608398 22.000000) rotate(-179.999985)" fill="#FFFFFF" fill-opacity="0"/>
-	<g clip-path="url(#clip71_617)">
-		<path id="Vector" d="M4.73 11.6L13.8 21.75C14.09 22.08 14.58 22.08 14.87 21.74C15.17 21.41 15.17 20.87 14.87 20.54L6.34 11L14.87 1.45C15.17 1.12 15.17 0.58 14.87 0.25C14.72 0.08 14.53 0 14.33 0C14.14 0 13.95 0.08 13.8 0.24L4.73 10.39C4.58 10.55 4.5 10.77 4.5 11C4.5 11.22 4.58 11.44 4.73 11.6Z" fill="#112137" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<rect width="19.608376" height="22.000002" transform="translate(19.608398 22.000000) rotate(-179.999985)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip195_1138)">
+		<path d="M4.73 11.6L13.8 21.75C14.09 22.08 14.58 22.08 14.87 21.74C15.17 21.41 15.17 20.87 14.87 20.54L6.34 11L14.87 1.45C15.17 1.12 15.17 0.58 14.87 0.25C14.72 0.08 14.53 0 14.33 0C14.14 0 13.95 0.08 13.8 0.24L4.73 10.39C4.58 10.55 4.5 10.77 4.5 11C4.5 11.22 4.58 11.44 4.73 11.6Z" fill="#112137" fill-opacity="1.000000" fill-rule="nonzero"/>
 	</g>
 </svg>
