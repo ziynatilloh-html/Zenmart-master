@@ -23,6 +23,11 @@ p {
   flex-direction: row;
   justify-content: center;
   background-color: #443297;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 9px rgba(243, 240, 240, 0.1);
 }
 
 .container {
@@ -33,6 +38,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: inherit;
 }
 
 .navbar_frame .navbar_top {
