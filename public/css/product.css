@@ -462,11 +462,14 @@
   border-radius: 6px;
   background: rgb(68, 50, 151);
 }
-/* tv_frame (spex)  */
+
+/* tv_frame (spex)   */
+/* general.css too! */
+
 .home_page .tv_frame {
   position: relative;
 
-  margin-top: 60px;
+  margin-top: 30px;
   width: 100%;
   height: auto;
 
@@ -478,17 +481,15 @@
   flex-direction: column;
 }
 .tv_frame .container .tv_wrapper {
-  margin-top: 30px;
   width: 100%;
   height: auto;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 .tv_frame .tv_wrapper .tv_product_boxes {
   width: 1320px;
-  height: 452px;
 
   display: flex;
   flex-direction: row;
@@ -515,6 +516,7 @@
   align-items: center;
   margin-top: 12px;
 }
+
 /* laptops_frame */
 .home_page .laptops_frame {
   position: relative;
@@ -573,4 +575,57 @@
   letter-spacing: 0%;
   text-align: left;
   background: transparent;
+}
+/* pagination_box_numbers */
+.container .pagination_box_number {
+  margin-top: 3px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 98px;
+}
+.container .pagination_box_number .pagination_main_number {
+  width: auto;
+  height: 24px;
+  font-size: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container .pagination_main_number .pagination_dot_numbers {
+  margin: 9px;
+  display: flex;
+  flex-direction: row;
+}
+.pagination_main_number img {
+  width: 15px;
+  padding: 15px 15px;
+  cursor: pointer;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 45px;
+}
+.container .pagination_dot_numbers .dot {
+  width: 39px;
+  height: 39px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  border-radius: 50%;
+}
+.container .pagination_dot_numbers .dot.active {
+  color: black;
+  border: 20px;
+  background-color: #f5c34b;
+}
+.container .pagination_dot_numbers .dot.important {
+  color: black;
+  border: 20px;
+  background-color: #f3f5f6;
 }
