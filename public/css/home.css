@@ -15,7 +15,7 @@
   align-items: center;
 }
 .container .category_top span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -25,7 +25,7 @@
 }
 
 .container .category_top a {
-  font-family: "Jost";
+  font-family: var(--font);
   margin-left: 30px;
   font-style: normal;
   font-weight: 500;
@@ -102,7 +102,7 @@
 }
 .container .product_content_box .product_title {
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -114,7 +114,7 @@
   margin-top: 7px;
   height: 56px;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -134,7 +134,7 @@
 .container .review_box span {
   margin-left: 10px;
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -155,7 +155,7 @@
   height: 26px;
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
@@ -168,7 +168,7 @@
   height: 22px;
 
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -219,7 +219,7 @@
   background: #f5c34b;
   border-radius: 6px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -230,7 +230,7 @@
   margin-top: 10px;
   width: 428px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
@@ -240,7 +240,7 @@
 .header_frame .header_content p {
   margin-top: 10px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -259,7 +259,7 @@
   background: #ffffff;
   border-radius: 6px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -295,7 +295,7 @@
   justify-content: center;
 }
 .header_frame .box_left span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -303,7 +303,7 @@
   color: #0053f6;
 }
 .header_frame .box_left p {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 26px;
@@ -311,7 +311,7 @@
   color: #041e42;
 }
 .header_frame .box_left a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -369,7 +369,7 @@
   flex-direction: column;
 }
 .service_frame .service_content span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -377,7 +377,7 @@
   color: #041e42;
 }
 .service_frame .service_content p {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -429,7 +429,7 @@
 }
 .shop_category_frame .category_box span {
   margin-top: 15px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -504,7 +504,7 @@
   background: rgb(0, 83, 246);
 
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -526,7 +526,7 @@
 
   background-color: #adc4f8;
   color: rgb(0, 83, 246);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 500;
   line-height: 26px;
@@ -576,7 +576,7 @@
 }
 .spec_product_frame .big_product_content span {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -584,14 +584,14 @@
 .spec_product_frame .big_product_content p {
   margin: 7px 0px;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 26px;
   font-weight: 400;
   line-height: 38px;
 }
 .spec_product_frame .big_product_content a {
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -642,7 +642,7 @@
   display: flex;
   flex-direction: row;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -651,7 +651,7 @@
   margin-top: 16px;
   margin-left: 50px;
   color: rgb(98, 105, 116);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -754,7 +754,7 @@
   height: 40px;
 
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -785,14 +785,14 @@
 }
 .event_frame .event_product_time_unit strong {
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
 }
 .event_frame .event_product_time_unit p {
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
