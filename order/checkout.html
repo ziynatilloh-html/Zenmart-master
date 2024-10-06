@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/command.css" />
+    <link rel="stylesheet" href="/public/css/product.css" />
+    <link rel="stylesheet" href="/public/css/cart.css" />
+    <link rel="stylesheet" href="/public/css/checkout.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/public/images/favicon-16x16.png"
+    />
+    <title>Zenmart</title>
+  </head>
+  <body>
+    <div class="navbar_frame">
+      <div class="container">
+        <div class="navbar_top">
+          <a href=""><img src="/public/images/Zenmart..svg" alt="" /> </a>
+          <div class="nav_search_frame">
+            <div class="search_box">
+              <div class="category_list">
+                <select>
+                  <option value="" selected>All categories</option>
+                  <option value="">Computers</option>
+                </select>
+              </div>
+              <input type="search" placeholder="Search Products..." />
+            </div>
+            <div class="search_icon_box">
+              <img src="/public/images/search.svg" alt="" />
+            </div>
+          </div>
+          <div class="nav_top_menu">
+            <a href="">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img src="/public/images/heart.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>Wishlist</span>
+                  <strong>My Items</strong>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img src="/public/images/person.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>Sign in</span>
+                  <strong>Account</strong>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <div class="basket_count">2</div>
+                  <img src="/public/images/basket.svg" alt="" />
+                </div>
+                <div class="box_info_box">
+                  <span>$200.99</span>
+                  <strong>Total</strong>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="navbar_bottom">
+          <div class="navbar_bot_menu_box">
+            <div class="browse_box">
+              <img src="/public/images/browse.svg" alt="" />
+              <span>Browse Categories</span>
+            </div>
+            <div class="navbar_route_menu">
+              <div class="router_menu">
+                <a href="" class="active">Home</a>
+              </div>
+              <div class="router_menu">
+                <a href="">Shop</a>
+              </div>
+              <div class="router_menu">
+                <a href="">Orders</a>
+              </div>
+              <div class="router_menu">
+                <a href="">About</a>
+              </div>
+              <div class="router_menu">
+                <a href="">Contact</a>
+              </div>
+            </div>
+            <div class="sorting_menu">
+              <span>Deal of the day</span>
+              <span>Hot Deals</span>
+              <span>Best Sellers</span>
+              <span>New Arrivals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home_page">
+      <div class="bottom_menu_list_frame">
+        <div class="container">
+          <div class="top_menu_list_bottom_text">
+            <span>Home / </span>
+            <span> Electronics /</span>
+            <span>Computers / </span>
+            <span class="active">Desktop Computers</span>
+          </div>
+        </div>
+      </div>
+      <div class="checkout_frame">
+        <div class="container">
+          <div class="checkout_left">
+            <h2>Billing Details *</h2>
+            <div class="space_holder">
+              <div class="form_group">
+                <label for="first-name">First Name:</label>
+                <input
+                  type="text"
+                  placeholder="Ali.."
+                  name="first-name"
+                  required
+                />
+              </div>
+              <div class="form_group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required />  
+              </div>
+            </div>
+            <h2>Company name *</h2>
+            <div class="form2_group">
+              <input
+                type="text"
+                placeholder="Type..."
+                name="first-name"
+                required
+              />
+            </div>
+            <h2>Country / Region *</h2>
+            <div class="form2_group">
+              <input
+                type="text"
+                placeholder="Type..."
+                name="first-name"
+                required
+              />
+            </div>
+            <h2>Street adress *</h2>
+            <div class="form2_group">
+              <input
+                type="text"
+                placeholder="Type..."
+                name="first-name"
+                required
+              />
+            </div>
+            <h2>Town / City *</h2>
+            <div class="form2_group">
+              <input
+                type="text"
+                placeholder="Type..."
+                name="first-name"
+                required
+              />
+            </div>
+            <h2>State *</h2>
+            <div class="form2_group">
+              <input
+                type="text"
+                placeholder="Type..."
+                name="first-name"
+                required
+              />
+            </div>
+            <h2>Zip Code *</h2>
+            <div class="form2_group">
+              <input
+                type="text"
+                placeholder="Type..."
+                name="first-name"
+                required
+              />
+            </div>
+            <div class="space_holder">
+              <div class="form_group">
+                <label for="first-name">Phone *</label>
+                <input
+                  type="text"
+                  placeholder="+998"
+                  name="first-name"
+                  required
+                />
+              </div>
+              <div class="form_group">
+                <label for="last-name">Email adress</label>
+                <input type="text" id="last-name" name="last-name" required />  
+              </div>
+            </div>
+            <h2>Shipping Details</h2>
+            <div class="form2_group">
+              <label for="order">Order notes (optional)</label>
+              <input
+                placeholder="Order notes"
+                type="text"
+                name=""
+                id="input"
+                style="height: 257px"
+              />
+            </div>
+          </div>
+          <div class="checkout_right">
+            <span>Your Order</span>
+            <div class="content_chc">
+              <div class="fch_wrapper">
+                <p>Apple MacBook Pro with Apple</p>
+                <p>Apple MacBook Pro with Apple</p>
+              </div>
+              <div class="sch_wrapper">
+                <p>$229.90</p>
+                <p>$229.90</p>
+              </div>
+            </div>
+            <div class="bottom_p">
+              <span>Sub total</span>
+              <p>$853.00</p>
+            </div>
+            <div class="bottom_p">
+              <span>Shipping</span>
+              <p>$25.00</p>
+            </div>
+            <div class="bottom_p">
+              <span>Total</span>
+              <p>$987.00</p>
+            </div>
+            <div class="check_box">
+              <input type="checkbox" id="myCheckbox" unchecked />
+              <label for="myCheckbox"
+                >Your personal data will be used to process your order, support
+                your experience throughout this website, and for other purposes
+                described in our privacy policy.</label
+              >
+            </div>
+            <div class="button_tag">
+              <a href="">
+                <button>Place Order</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="customer_service_frame" style="margin-top: 900px">
+        <div class="container">
+          <div class="customer_service_boxes">
+            <div class="contact_us_box">
+              <strong>Contact Us</strong>
+              <div class="phone_number">
+                <img src="/public/images/phone-call 1.svg" alt="" />
+                <span>Monday-Friday: 08am-9pm</span>
+                <p>+(1) 123 456 7890</p>
+
+                <div class="email_number">
+                  <img src="/public/images/email 1.svg" alt="" />
+                  <span>Need help with your order?</span>
+                  <p>support@zenmart.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="customer_support_box">
+              <strong>Customer Support</strong>
+              <div class="paragraph">
+                <p>Contact Us</p>
+                <p>Help Centre</p>
+                <p>Returns & Exchanges</p>
+                <p>Best By Financing</p>
+                <p>Best By Gift Card</p>
+              </div>
+            </div>
+            <div class="service_support_box">
+              <strong>Services</strong>
+              <div class="paragraph">
+                <p>Geek Squad</p>
+                <p>In-Home Advisor</p>
+                <p>Trade-In Program</p>
+                <p>Electronics Recycling</p>
+                <p>Best By Health</p>
+              </div>
+            </div>
+            <div class="social_network_box">
+              <strong>Follow us</strong>
+              <div class="social_media_icons">
+                <img src="/public/images/facebook.svg" alt="" />
+                <img src="/public/images/twitter.svg" alt="" />
+                <img src="/public/images/instagram.svg" alt="" />
+                <img src="/public/images/linked.svg" alt="" />
+              </div>
+              <span>Mobile Apps</span>
+              <div class="mobile_app">
+                <div class="mobile_app_item">
+                  <img src="/public/images/apple 1.svg" alt="iOS App" />
+                  <p>iOS App</p>
+                </div>
+                <div class="mobile_app_item">
+                  <img src="/public/images/XMLID_197_.svg" alt="Android App" />
+                  <p>Android App</p>
+                </div>
+              </div>
+            </div>
+            <div class="payment_methods_box">
+              <strong>We accept</strong>
+              <div class="card_photos">
+                <img src="/public/images/visa.svg" alt="" />
+                <img src="/public/images/master.svg" alt="" />
+                <img src="/public/images/applepay.svg" alt="" />
+                <img src="/public/images/discover.svg" alt="" />
+                <img src="/public/images/paypal.svg" alt="" />
+                <img src="/public/images/amex.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="thebootom_frame">
+        <div class="container">
+          <div class="left_rigth_side_wrapper">
+            <div class="left-side">
+              <p>2022 Zenmart. All Rights Reserved</p>
+              <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Sitemap</a></li>
+              </ul>
+            </div>
+            <div class="right-side">
+              <div class="currency-dropdown">
+                <select class="currency-select">
+                  <option value="USD">USD</option>
+                  <option value="EUR">EUR</option>
+                </select>
+              </div>
+              <div class="language-dropdown">
+                <select class="language-select">
+                  <option value="en">English</option>
+                  <option value="fr">French</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
