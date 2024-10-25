@@ -1,0 +1,317 @@
+/* Header */
+.home_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home_page .category_topimg_frame {
+  position: relative;
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home_page .category_topimg_frame .container {
+  display: flex;
+  width: 1320px;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+}
+.home_page .img_wrapper_box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home_page .img_wrapper_box img {
+  border-radius: 6px;
+}
+.home_page .divided_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.home_page .img_wrapper_box .headset {
+  width: 320px;
+  height: 490px;
+}
+/* Bottom descriptiondiv */
+.home_page .bottom_descr {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.home_page .bottom_descr .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1142px;
+  height: auto;
+  justify-content: flex-start;
+}
+.home_page .container .category_top {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.home_page .container .top_desc strong {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.home_page .container .top_desc p {
+  margin-top: 30px;
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.home_page .bottom_descr .review_big_box {
+  width: 1142px;
+  height: 170px;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 60px;
+  border-top: 1px solid rgb(234, 234, 234);
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+.home_page .bottom_descr .review_big_boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home_page .bottom_descr .review_big_box span {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.home_page .review_big_boxes div {
+  width: 165.48px;
+  height: 100px;
+}
+.home_page .review_big_box .review_big_boxes h1 {
+  position: relative;
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 41px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+  margin: 0px 0px;
+  margin-top: 30px;
+}
+.home_page .review_big_box .review_big_boxes p {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.leaders-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaders-container {
+  width: 1142px;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.leaders-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leaders-header span {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.leaders-cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.leader-card {
+  position: relative;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.5s ease;
+  background-color: rgba(240, 240, 240, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.leader-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 120, 215, 0.1);
+}
+
+.leader-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.leader-card:hover img {
+  transform: scale(1.1);
+}
+
+/* Animation for each letter */
+.leader-card h1 span,
+.leader-card p span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s forwards;
+}
+
+.leader-card:hover h1 span,
+.leader-card:hover p span {
+  animation-delay: calc(0.05s * var(--i));
+}
+
+/* Keyframe for the text animation */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.leader-card h1 {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.leader-card p {
+  color: rgb(98, 105, 116);
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+/* Choose us frame*/
+.choose_us_frame {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: ;
+}
+.choose_us_frame .container {
+  position: relative;
+  flex-direction: column;
+  width: 1141px;
+  height: 500px;
+}
+.choose_us_frame_header {
+  color: rgb(4, 30, 66);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.service_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.service_wrapper div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service_wrapper div img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.service_wrapper div:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service_wrapper div:hover img {
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.service_wrapper div p,
+.service_wrapper div span {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.service_wrapper div:hover p,
+.service_wrapper div:hover span {
+  color: #0056b3;
+  text-shadow: none;
+}
