@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/command.css" />
+    <link rel="stylesheet" href="/public/css/product.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/public/css/contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/public/images/favicon-16x16.png"
+    />
+    <title>Zenmart</title>
+  </head>
+  <body>
+    <div class="home_page">
+      <div class="navbar_frame">
+        <div class="container">
+          <div class="navbar_top">
+            <a href=""><img src="/public/images/Zenmart..svg" alt="" /> </a>
+            <div class="nav_search_frame">
+              <div class="search_box">
+                <div class="category_list">
+                  <select>
+                    <option value="" selected>All categories</option>
+                    <option value="">Computers</option>
+                  </select>
+                </div>
+                <input type="search" placeholder="Search Products..." />
+              </div>
+              <div class="search_icon_box">
+                <img src="/public/images/search.svg" alt="" />
+              </div>
+            </div>
+            <div class="nav_top_menu">
+              <a href="">
+                <div class="top_menu_box">
+                  <div class="box_icon_box">
+                    <img src="/public/images/heart.svg" alt="" />
+                  </div>
+                  <div class="box_info_box">
+                    <span>Wishlist</span>
+                    <strong>My Items</strong>
+                  </div>
+                </div>
+              </a>
+              <a href="">
+                <div class="top_menu_box">
+                  <div class="box_icon_box">
+                    <img src="/public/images/person.svg" alt="" />
+                  </div>
+                  <div class="box_info_box">
+                    <span>Sign in</span>
+                    <strong>Account</strong>
+                  </div>
+                </div>
+              </a>
+              <a href="">
+                <div class="top_menu_box">
+                  <div class="box_icon_box">
+                    <div class="basket_count">2</div>
+                    <img src="/public/images/basket.svg" alt="" />
+                  </div>
+                  <div class="box_info_box">
+                    <span>$200.99</span>
+                    <strong>Total</strong>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="navbar_bottom">
+            <div class="navbar_bot_menu_box">
+              <div class="browse_box">
+                <img src="/public/images/browse.svg" alt="" />
+                <span>Browse Categories</span>
+              </div>
+              <div class="navbar_route_menu">
+                <div class="router_menu">
+                  <a href="" class="active">Home</a>
+                </div>
+                <div class="router_menu">
+                  <a href="">Shop</a>
+                </div>
+                <div class="router_menu">
+                  <a href="">Orders</a>
+                </div>
+                <div class="router_menu">
+                  <a href="">About</a>
+                </div>
+                <div class="router_menu">
+                  <a href="">Contact</a>
+                </div>
+              </div>
+              <div class="sorting_menu">
+                <span>Deal of the day</span>
+                <span>Hot Deals</span>
+                <span>Best Sellers</span>
+                <span>New Arrivals</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=YourEmbedLinkHere"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+      <div class="contact-frame">
+        <div class="contact_container">
+          <div class="contact_right">
+            <div>
+              <h2>Get in touch with us today</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam purus sit amet.
+              </p>
+            </div>
+            <div class="contact_us_boxes">
+              <div class="p_number">
+                <div>
+                  <img src="/public/images/phone-call 1.svg" alt="" />
+                </div>
+                <div>
+                  <span>Monday-Friday: 08am-9pm</span>
+                  <p>+(1) 123 456 7890</p>
+                </div>
+              </div>
+              <div class="p_number">
+                <div><img src="/public/images/email 1.svg" alt="" /></div>
+                <div>
+                  <span>Need help with your order?</span>
+                  <p>support@zenmart.com</p>
+                </div>
+              </div>
+              <div class="social_network_box">
+                <strong>Follow us</strong>
+                <div class="social_media_icons">
+                  <img src="/public/images/facebook.svg" alt="" />
+                  <img src="/public/images/twitter.svg" alt="" />
+                  <img src="/public/images/instagram.svg" alt="" />
+                  <img src="/public/images/linked.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact_left">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" />
+              </div>
+              <div class="bottom_two">
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" placeholder="Subject" />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    style="height: 400px"
+                    id="message"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+              </div>
+            </form>
+            <div class="button-container">
+              <a href="#" class="simple-button">Send Message</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container_bottom">
+        <div class="container_bottom_wrapper">
+          <div class="container_desco">
+            <h1>Come and visit one of our offices around the world</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam
+              purus sit amet luctus venenatis lectus.
+            </p>
+          </div>
+          <div class="locations">
+            <div class="location">
+              <h2>London Shop</h2>
+              <p>PO Box 16122 Collins Street West Victoria</p>
+              <p>8007 Australia</p>
+              <p>+61 3 8376 6284</p>
+              <p>london@zenmart.com</p>
+              <a href="#">See Map</a>
+            </div>
+            <div class="location">
+              <h2>New York Shop</h2>
+              <p>PO Box 16122 Collins Street West Victoria</p>
+              <p>8007 Australia</p>
+              <p>+61 3 8376 6284</p>
+              <p>london@zenmart.com</p>
+              <a href="#">See Map</a>
+            </div>
+            <div class="location">
+              <h2>Istanbul Shop</h2>
+              <p>PO Box 16122 Collins Street West Victoria</p>
+              <p>8007 Australia</p>
+              <p>+61 3 8376 6284</p>
+              <p>london@zenmart.com</p>
+              <a href="#">See Map</a>
+            </div>
+            <div class="location">
+              <h2>Paris Shop</h2>
+              <p>PO Box 16122 Collins Street West Victoria</p>
+              <p>8007 Australia</p>
+              <p>+61 3 8376 6284</p>
+              <p>london@zenmart.com</p>
+              <a href="#">See Map</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="faq-section_frame">
+        <div class="container">
+          <div><h2 class="faq-title">Frequently Asked Questions</h2></div>
+
+          <div class="faq-item">
+            <h3>
+              What is the monthly cost of your app?
+              <span class="plus-icon">+</span>
+            </h3>
+            <div class="faq-content">
+              <p>
+                The monthly cost of our app depends on the subscription plan you
+                choose. We offer a Basic plan starting at $9.99 per month, a
+                Standard plan at $19.99 per month, and a Premium plan at $29.99
+                per month. Each plan includes different features and access
+                levels.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              Do you have any local branches? <span class="plus-icon">+</span>
+            </h3>
+            <div class="faq-content">
+              <p>
+                Yes, we have local branches in several major cities including
+                New York, London, Paris, and Sydney. For specific addresses and
+                contact information, please visit the "Contact Us" section of
+                our website.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              What do I need to create an account?
+              <span class="plus-icon">+</span>
+            </h3>
+            <div class="faq-content">
+              <p>
+                Creating an account is simple! You'll need to provide a valid
+                email address, choose a unique username, and set a secure
+                password. Once you've completed the registration form, check
+                your email for a verification link to activate your account.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              Do you have iOS and Android apps? <span class="plus-icon">+</span>
+            </h3>
+            <div class="faq-content">
+              <p>
+                Yes, we offer both iOS and Android apps! You can download our
+                app from the Apple App Store for iOS devices and from Google
+                Play for Android devices. Our mobile apps provide all the
+                functionality of the web platform, optimized for smaller
+                screens.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              How do I create an account? <span class="plus-icon">+</span>
+            </h3>
+            <div class="faq-content">
+              <p>
+                To create an account, visit our sign-up page, enter your details
+                (name, email, and password), and click "Sign Up." A verification
+                email will be sent to you shortly. Click on the link in the
+                email to confirm your registration, and you’re all set!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        const faqItems = document.querySelectorAll(".faq-item");
+
+        faqItems.forEach((item) => {
+          item.addEventListener("click", () => {
+            item.classList.toggle("active");
+          });
+        });
+      </script>
+      <div class="customer_service_frame">
+        <div class="container">
+          <div class="customer_service_boxes">
+            <div class="contact_us_box">
+              <strong>Contact Us</strong>
+              <div class="phone_number">
+                <img src="/public/images/phone-call 1.svg" alt="" />
+                <span>Monday-Friday: 08am-9pm</span>
+                <p>+(1) 123 456 7890</p>
+
+                <div class="email_number">
+                  <img src="/public/images/email 1.svg" alt="" />
+                  <span>Need help with your order?</span>
+                  <p>support@zenmart.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="customer_support_box">
+              <strong>Customer Support</strong>
+              <div class="paragraph">
+                <p>Contact Us</p>
+                <p>Help Centre</p>
+                <p>Returns & Exchanges</p>
+                <p>Best By Financing</p>
+                <p>Best By Gift Card</p>
+              </div>
+            </div>
+            <div class="service_support_box">
+              <strong>Services</strong>
+              <div class="paragraph">
+                <p>Geek Squad</p>
+                <p>In-Home Advisor</p>
+                <p>Trade-In Program</p>
+                <p>Electronics Recycling</p>
+                <p>Best By Health</p>
+              </div>
+            </div>
+            <div class="social_network_box">
+              <strong>Follow us</strong>
+              <div class="social_media_icons">
+                <img src="/public/images/facebook.svg" alt="" />
+                <img src="/public/images/twitter.svg" alt="" />
+                <img src="/public/images/instagram.svg" alt="" />
+                <img src="/public/images/linked.svg" alt="" />
+              </div>
+              <span>Mobile Apps</span>
+              <div class="mobile_app">
+                <div class="mobile_app_item">
+                  <img src="/public/images/apple 1.svg" alt="iOS App" />
+                  <p>iOS App</p>
+                </div>
+                <div class="mobile_app_item">
+                  <img src="/public/images/XMLID_197_.svg" alt="Android App" />
+                  <p>Android App</p>
+                </div>
+              </div>
+            </div>
+            <div class="payment_methods_box">
+              <strong>We accept</strong>
+              <div class="card_photos">
+                <img src="/public/images/visa.svg" alt="" />
+                <img src="/public/images/master.svg" alt="" />
+                <img src="/public/images/applepay.svg" alt="" />
+                <img src="/public/images/discover.svg" alt="" />
+                <img src="/public/images/paypal.svg" alt="" />
+                <img src="/public/images/amex.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="thebootom_frame">
+        <div class="container">
+          <div class="left_rigth_side_wrapper">
+            <div class="left-side">
+              <p>2022 Zenmart. All Rights Reserved</p>
+              <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Sitemap</a></li>
+              </ul>
+            </div>
+            <div class="right-side">
+              <div class="currency-dropdown">
+                <select class="currency-select">
+                  <option value="USD">USD</option>
+                  <option value="EUR">EUR</option>
+                </select>
+              </div>
+              <div class="language-dropdown">
+                <select class="language-select">
+                  <option value="en">English</option>
+                  <option value="fr">French</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
