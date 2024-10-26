@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/command.css" />
+    <link rel="stylesheet" href="/public/css/product.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/public/css/login.css" />
+    <link rel="stylesheet" href="/public/css/register.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/public/images/favicon-16x16.png"
+    />
+    <title>Zenmart</title>
+  </head>
+  <body>
+    <div class="signup-container">
+      <div class="signup-card">
+        <h2 class="signup-title">Create your account</h2>
+
+        <form class="signup-form">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Ali Tufan" />
+
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="ali1n" />
+
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="email@example.com" />
+
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Password" />
+
+          <button type="submit" class="signup-btn">Create Account</button>
+
+          <p class="signin-prompt">
+            Already have an account? <a href="#" class="signin-link">Sign in</a>
+          </p>
+
+          <div class="separator">or</div>
+
+          <div class="social-signup">
+            <button class="social-btn facebook">f</button>
+            <button class="social-btn google">G</button>
+            <button class="social-btn twitter">t</button>
+            <button class="social-btn apple"></button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script>
+      document
+        .querySelector(".signup-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const name = document.getElementById("name").value.trim();
+          const username = document.getElementById("username").value.trim();
+          const email = document.getElementById("email").value.trim();
+          const password = document.getElementById("password").value.trim();
+
+          if (!name || !username || !email || !password) {
+            alert("Please fill out all fields");
+            return; // Stop if any field is empty
+          }
+
+          const emailPattern =
+            /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+          if (!emailPattern.test(email)) {
+            alert("Please enter a valid email address");
+            return;
+          }
+
+          if (password.length < 6) {
+            alert("Password must be at least 6 characters");
+            return;
+          }
+
+          alert("Account created successfully!");
+        });
+    </script>
+  </body>
+</html>
