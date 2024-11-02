@@ -1,0 +1,131 @@
+/* General Styling */
+body {
+  font-family: "Jost", sans-serif;
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.product-create-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Product Create Section Styling */
+.product-create-section {
+  padding: 40px 0;
+}
+
+/* Frame Style */
+.frame {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Form Styling */
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #007bff; /* Add a blue focus border */
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Product Image Upload Styling */
+.image-label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.upload-button {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+/* Create Button */
+.create-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.create-button {
+  padding: 12px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.create-button:hover {
+  background-color: #e6b800;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+}
